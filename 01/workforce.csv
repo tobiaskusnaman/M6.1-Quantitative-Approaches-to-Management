@@ -1,0 +1,136 @@
+top_school_degree;job_satisfaction;job_satisfaction_previous;years_on_job;age;gender;performance_review;seniority;department;full_or_parttime;remote;sick_days;initial_potential_assessment;year_salary_k
+no;98;50;19;41;male;81;senior manager;strategy;full;100;20;good;183
+yes;96;10;19;43;male;71;senior manager;operations;full;0;7;great;152
+no;56;17;19;41;male;73;senior manager;operations;full;100;23;good;143
+no;70;20;20;44;male;71;senior manager;operations;full;50;3;good;140
+no;93;34;18;43;male;80;senior manager;strategy;full;100;6;trial;118
+no;49;22;19;41;female;71;senior manager;marketing;full;75;20;great;184
+no;94;20;20;43;female;77;senior manager;hr;full;0;4;good;170
+no;8;33;20;44;female;78;senior manager;r&d;full;100;11;great;121
+no;88;24;19;43;female;78;senior manager;marketing;part;75;8;great;105
+yes;98;57;19;49;female;98;senior manager;marketing;part;100;30;great;98
+yes;100;25;20;44;female;74;senior manager;finance;part;0;7;superstar;95
+no;83;15;19;43;female;71;senior manager;r&d;full;25;4;great;91
+no;79;33;15;37;other;79;senior contributor;r&d;full;50;3;good;73
+no;85;46;16;36;male;82;senior contributor;hr;full;75;6;trial;85
+no;65;66;16;35;male;84;senior contributor;r&d;part;50;2;great;84
+yes;89;50;11;34;male;81;senior contributor;r&d;part;100;1;great;82
+no;86;59;11;34;male;83;senior contributor;r&d;full;50;2;trial;81
+yes;89;25;15;35;male;78;senior contributor;r&d;full;0;4;good;79
+no;67;63;12;32;male;83;senior contributor;operations;full;75;0;good;76
+no;75;41;12;34;male;80;senior contributor;hr;part;100;13;trial;75
+no;76;69;12;36;male;85;senior contributor;marketing;full;25;10;great;75
+no;58;50;13;35;male;80;senior contributor;r&d;part;100;8;trial;74
+no;54;14;16;36;male;78;senior contributor;operations;full;75;16;superstar;73
+yes;80;26;17;38;male;74;senior contributor;marketing;full;75;0;great;70
+yes;100;70;10;33;male;89;senior contributor;marketing;full;100;0;superstar;69
+no;51;34;13;37;male;79;senior contributor;marketing;full;25;12;great;68
+no;61;65;12;33;male;85;senior contributor;marketing;part;0;4;great;67
+yes;94;63;13;36;male;84;senior contributor;operations;full;50;9;great;67
+yes;65;61;11;33;female;82;senior contributor;marketing;part;25;3;great;80
+yes;50;65;16;35;female;74;senior contributor;marketing;part;75;10;superstar;80
+no;50;34;12;37;female;78;senior contributor;marketing;full;100;30;trial;79
+yes;79;61;13;34;female;83;senior contributor;r&d;full;100;2;great;78
+no;65;70;12;35;female;87;senior contributor;operations;full;75;2;great;76
+no;57;47;10;33;female;82;senior contributor;r&d;full;75;15;great;75
+no;81;32;13;35;female;80;senior contributor;operations;full;0;3;good;70
+yes;63;57;13;37;female;81;senior contributor;operations;part;75;7;good;69
+no;69;74;15;37;female;85;senior contributor;operations;full;50;7;trial;69
+no;60;67;10;32;female;84;senior contributor;r&d;full;75;2;good;68
+no;98;69;9;33;female;87;senior contributor;operations;part;0;3;good;66
+yes;91;46;11;34;female;83;senior contributor;r&d;part;50;7;trial;66
+yes;63;51;15;37;female;80;senior contributor;marketing;part;0;10;great;62
+yes;87;68;14;35;female;85;senior contributor;finance;part;0;6;trial;61
+no;89;33;17;38;other;79;manager;operations;part;75;21;great;59
+no;60;27;16;39;male;74;manager;finance;full;100;6;good;88
+no;64;32;17;40;male;76;manager;r&d;full;100;4;good;87
+yes;94;47;12;34;male;82;manager;finance;full;0;2;good;81
+no;67;20;18;38;male;73;manager;r&d;full;25;3;trial;75
+no;60;36;15;38;male;76;manager;operations;part;50;4;good;73
+no;65;30;20;40;male;75;manager;operations;part;0;1;good;71
+no;57;65;17;41;female;83;manager;r&d;part;100;0;good;83
+no;98;30;17;39;female;79;manager;hr;full;100;2;trial;82
+yes;99;69;12;32;female;85;manager;operations;full;100;14;good;81
+no;80;59;13;37;female;85;manager;operations;part;100;2;trial;81
+no;82;30;20;41;female;77;manager;marketing;full;0;2;great;78
+yes;71;24;17;38;female;74;manager;operations;part;50;3;good;75
+yes;87;35;16;39;female;77;manager;r&d;part;0;2;great;73
+no;72;25;18;39;female;77;manager;marketing;full;0;2;good;73
+yes;49;23;17;41;female;74;manager;hr;part;25;23;superstar;72
+yes;99;64;9;31;female;90;manager;hr;full;100;4;great;70
+yes;54;66;13;38;female;85;manager;operations;full;50;17;good;64
+no;91;46;16;37;female;76;manager;r&d;part;0;8;great;62
+no;96;34;13;36;female;80;manager;hr;full;50;8;trial;60
+no;59;26;16;37;female;74;manager;r&d;part;75;7;great;59
+yes;92;60;14;37;female;82;manager;marketing;part;25;1;great;58
+yes;71;59;8;27;other;82;junior contributor;operations;full;0;1;good;45
+yes;97;31;10;30;other;80;junior contributor;r&d;full;75;5;good;41
+yes;84;68;6;28;other;90;junior contributor;r&d;full;0;0;good;40
+no;86;80;7;32;other;86;junior contributor;r&d;full;75;5;good;37
+no;69;88;5;29;male;94;junior contributor;r&d;full;25;6;good;50
+no;94;90;8;27;male;91;junior contributor;operations;full;50;10;great;55
+no;83;89;5;29;male;92;junior contributor;r&d;part;75;6;good;49
+no;90;64;9;30;male;86;junior contributor;r&d;full;0;9;good;49
+no;75;50;10;33;male;82;junior contributor;marketing;full;75;15;good;49
+no;81;70;5;30;male;88;junior contributor;r&d;full;100;31;good;50
+no;64;83;6;26;male;88;junior contributor;hr;full;0;6;great;48
+yes;50;80;6;31;male;92;junior contributor;marketing;full;0;40;good;48
+yes;100;68;9;30;male;87;junior contributor;operations;full;0;3;superstar;48
+no;76;70;14;35;male;86;junior contributor;r&d;part;75;6;good;47
+no;92;NA;0;22;male;93;junior contributor;hr;full;100;3;good;45
+no;65;68;10;30;male;89;junior contributor;r&d;part;50;3;great;45
+no;79;80;2;27;male;93;junior contributor;r&d;part;25;4;superstar;44
+yes;64;90;3;26;male;90;junior contributor;r&d;part;25;5;good;44
+yes;57;79;6;31;male;91;junior contributor;marketing;full;0;13;superstar;43
+no;83;80;8;29;male;88;junior contributor;strategy;full;100;8;trial;43
+yes;73;68;39;30;male;88;junior contributor;strategy;full;0;6;good;43
+no;78;88;4;26;male;96;junior contributor;marketing;full;25;6;trial;48
+no;98;64;9;30;male;89;junior contributor;hr;part;50;2;great;50
+no;87;73;10;30;male;87;junior contributor;operations;full;25;3;good;42
+no;89;100;2;24;male;98;junior contributor;marketing;part;25;6;trial;41
+no;74;70;9;32;male;90;junior contributor;operations;full;50;5;good;41
+yes;98;84;5;27;male;92;junior contributor;r&d;part;50;15;good;40
+no;77;NA;1;24;male;91;junior contributor;marketing;full;50;7;trial;39
+no;88;80;4;29;male;91;junior contributor;r&d;full;75;0;good;39
+yes;56;67;7;30;male;83;junior contributor;r&d;full;0;2;superstar;39
+yes;74;85;8;31;male;90;junior contributor;operations;full;25;56;trial;39
+yes;73;79;10;30;male;88;junior contributor;hr;part;0;3;great;39
+no;62;NA;0;24;male;93;junior contributor;marketing;full;0;3;good;38
+no;68;40;10;30;male;81;junior contributor;strategy;full;0;5;great;38
+no;89;NA;0;22;male;98;junior contributor;strategy;part;100;34;good;37
+no;54;90;1;24;male;95;junior contributor;strategy;full;75;15;great;37
+no;73;87;8;32;male;91;junior contributor;marketing;full;3;1;good;37
+no;60;63;10;30;male;82;junior contributor;marketing;full;75;3;good;37
+yes;87;75;6;30;male;87;junior contributor;operations;full;25;0;great;35
+no;86;50;9;31;male;83;junior contributor;r&d;full;50;4;trial;35
+yes;52;62;9;27;female;89;junior contributor;r&d;full;50;14;superstar;45
+yes;63;73;10;30;female;88;junior contributor;operations;full;75;8;great;45
+no;81;68;6;31;female;85;junior contributor;r&d;part;50;6;good;43
+yes;81;80;8;30;female;89;junior contributor;operations;full;0;5;good;40
+no;100;67;7;27;female;86;junior contributor;hr;full;100;4;superstar;40
+no;76;90;7;26;female;93;junior contributor;marketing;part;100;5;superstar;40
+no;49;60;8;33;female;82;junior contributor;operations;full;100;20;good;40
+no;62;100;5;30;female;95;junior contributor;r&d;full;75;2;good;38
+yes;66;63;5;26;female;85;junior contributor;operations;full;1000;1;great;35
+no;60;70;7;31;female;91;junior contributor;r&d;part;75;4;good;35
+yes;84;64;10;32;female;88;junior contributor;r&d;full;75;8;good;32
+no;97;74;11;35;female;87;junior contributor;operations;full;100;4;good;35
+yes;80;90;6;27;female;92;junior contributor;r&d;part;50;1;good;33
+yes;100;80;1;22;female;92;junior contributor;hr;full;25;6;trial;34
+no;93;65;11;31;female;84;junior contributor;marketing;full;0;5;good;34
+no;51;63;5;27;female;89;junior contributor;strategy;full;0;32;superstar;33
+no;82;69;5;28;female;90;junior contributor;operations;full;50;3;trial;33
+yes;97;70;10;30;female;87;junior contributor;operations;full;0;6;great;33
+no;71;70;11;32;female;89;junior contributor;operations;part;25;2;good;33
+yes;78;NA;0;22;female;99;junior contributor;finance;full;0;5;good;31
+no;59;50;10;31;female;80;junior contributor;operations;full;75;6;superstar;31
+no;56;66;10;32;female;83;junior contributor;r&d;part;0;13;great;31
+yes;80;NA;0;21;male;97;intern;r&d;full;100;1;trial;10
+no;70;NA;0;21;male;97;intern;r&d;full;25;5;good;10
+no;100;NA;0;22;male;91;intern;operations;part;25;2;good;9
+no;100;NA;0;22;male;91;intern;finance;full;100;2;superstar;9
+yes;100;NA;0;22;male;91;intern;marketing;full;0;5;great;9
+yes;7;NA;0;22;male;91;intern;marketing;full;75;10;superstar;9
+no;98;NA;0;21;male;97;intern;hr;full;50;1;great;9
+no;70;NA;0;21;male;97;intern;marketing;full;50;4;good;9
+;;;;;;;;;;;;;

@@ -1,0 +1,84 @@
+---
+title: "Property Price"
+author: "Tobias Kusnaman"
+date: May 27, 2021
+output: pdf_document
+---
+```{r include = FALSE}
+library(data.table)
+library(ggplot2)
+library(dplyr)
+library(ggthemes)
+library(knitr)
+library(tidyr)
+```
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+## Import and Cleaning Data
+```{r}
+# Import and cleaning NA rows
+property_prices <- fread("./property_prices.csv")
+property_prices <- property_prices[complete.cases(property_prices), ]
+names(property_prices) <- gsub(" ", "_", tolower(names(property_prices)))
+
+# Fix living area data
+property_prices <- property_prices %>%
+  mutate(living_area_sq_ft = 
+    ifelse(living_area_sq_ft > 10, living_area_sq_ft/1000, living_area_sq_ft))
+```
+
+## Property by room
+The table below explains the summary data by selling price, local price, living area, and area in square feet. The majority of the property has six rooms. There are two properties that have nine and ten rooms with a price more than double of other properties.
+```{r}
+property_by_room <- property_prices %>%
+  group_by(rooms)
+
+property_by_room_summary <- property_by_room %>%
+  summarise(
+    mean_selling_price = mean(selling_price),
+    mean_local_price = mean(local_price),
+    mean_living_area = mean(living_area_sq_ft),
+    mean_area_in_sq_ft = mean(area_in_sq_ft),
+    count = n()
+  )
+
+kable(property_by_room_summary, caption = "Property by Number of rooms")
+```
+
+## Property Price Trend
+Figure 1 illustrates the more expensive the property, the more property, and living area. In addition, the proportion of living area by the total area is getting lower as the property area gets bigger.
+
+```{r fig.cap = "Local price vs selling price"}
+ggplot(property_prices, aes(x = selling_price)) + 
+  geom_line(aes(y = living_area_sq_ft, color =" green")) +
+  geom_line(aes(y = area_in_sq_ft, color = "darkblue")) +
+  labs(x = "Selling price", y = "") + 
+  scale_color_discrete(name = "Area (square feet)", labels = c("Living", "Property"))
+```
+
+## Property Features
+Table 2 depicts the property features; bathroom, garage, bedroom, and fireplace. The more rooms the property has the more features that the property has. However, the property that has six and seven rooms does not have a fireplace. Another feature that we can point out also, the highest increment feature is from the property that has seven rooms to eight rooms.
+```{r}
+property_by_room_facilities <- property_by_room %>%
+  summarise(median_bathroom = median(bathrooms),
+    median_garage = median(garages),
+    median_bedroom = median(bedrooms),
+    median_fireplace = median(fireplace),
+    total = sum(median_garage, median_bedroom, median_fireplace))
+
+kable(property_by_room_facilities, caption = "Property features")
+```
+
+```{r}
+pivot_features <- pivot_longer(property_by_room_facilities, 
+  cols=c('median_bathroom', 'median_garage','median_bedroom', 'median_fireplace'),
+  names_to='feat_category', values_to="value")
+  
+ggplot(pivot_features, aes(x = rooms, y = value, fill = feat_category)) +
+  geom_bar(stat = 'identity', position='stack') +
+  labs(x = "Number of rooms", y = "Features")
+```
