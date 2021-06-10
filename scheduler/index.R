@@ -1,0 +1,37 @@
+# install.packages("cronR")
+library(cronR)
+getwd()
+# setwd("/Users/tobiaskusnaman/Documents/HTW/Quantitative/M6.1-Quantitative-Approaches-to-Management/scheduler")
+rmarkdown::render("property_price.Rmd")
+# f <- system.file(package = "cronR", "extdata", "helloworld.R")
+f <- rmarkdown::render("property_price.Rmd")
+cmd <- cron_rscript(f)
+cmd
+# install.packages('rmarkdown')
+install.packages('devtools')
+library('devtools')
+devtools::install_github('yihui/tinytex')
+
+cron_add(command = cmd, frequency = 'minutely', id = 'test1', description = 'My process 1', tags = c('lab', 'xyz'))
+cron_add(command = cmd, frequency = 'daily', at='7AM', id = 'test2')
+cron_njobs()
+
+cron_clear(ask=FALSE)
+cron_ls()
+
+cmd <- cron_rscript(f, rscript_args = c("productx", "arg2", "123"))
+cmd
+cron_add(cmd, frequency = 'minutely', id = 'job1', description = 'Customers')
+
+# cron_add(cmd, frequency = 'hourly', id = 'job2', description = 'Weather')
+# cron_add(cmd, frequency = 'hourly', id = 'job3', days_of_week = c(1, 2))
+# cron_add(cmd, frequency = 'hourly', id = 'job4', at = '00:20', days_of_week = c(1, 2))
+# cron_add(cmd, frequency = 'daily', id = 'job5', at = '14:20')
+# cron_add(cmd, frequency = 'daily', id = 'job6', at = '14:20', days_of_week = c(0, 3, 5))
+# cron_add(cmd, frequency = 'daily', id = 'job7', at = '23:59', days_of_month = c(1, 30))
+# cron_add(cmd, frequency = 'monthly', id = 'job8', at = '10:30', days_of_month = 'first', days_of_week = '*')
+# cron_add(cmd, frequency = '@reboot', id = 'job9', description = 'Good morning')
+# cron_add(cmd, frequency = '*/15 * * * *', id = 'job10', description = 'Every 15 min')   
+system.file("extdata", "helloworld.log", package = "cronR")
+cron_ls()
+cron_clear(ask=FALSE)
